@@ -184,3 +184,165 @@ body{
     padding: 40px;
     background-color: rgb(248, 249, 249);
 }
+.box{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-bottom: 10px;
+}
+.box h2{
+    color:rgb(7, 158, 158);
+    font-size: 18px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+}
+.box p{
+    font-size: 16px;
+    margin-top: 3px;
+    text-align: justify;
+    font-weight: 300;
+}
+.exp h2{
+    color:rgb(7, 158, 158);
+    font-size: 18px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+}
+.exp .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.exp .box .year{
+    min-width: 120px;
+}
+.exp .box .year h5{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(2, 58, 58);
+}
+.exp .box .text h4{
+    text-transform: uppercase;
+    font-size: 16x;
+    color: rgb(2, 58, 58);
+    font-weight: 600;
+    margin-left: 40px;
+}
+.exp p{
+    font-size: 16px;
+    margin-top: 3px;
+    text-align: justify;
+    font-weight: 300;
+    margin-left: 40px;
+}
+.skill {
+    position: relative;
+    align-items: left;
+}
+.skill h3{
+    color:rgb(7, 158, 158);
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+}
+.skill .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.skill .box .text{
+    min-width: 120px;
+}
+.skill .box .text ul li{
+    list-style: none;
+}
+.skill .box .list ul li{
+    list-style: none;
+}
+.skill .box .text ul li .txt{
+    font-size: 14px;
+    margin-top: 2px;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(2, 58, 58)
+}
+.skill .box .list ul li .lst{
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-left: 100px;
+}
+.award {
+    position: relative;
+    align-items: left;
+}
+.award h2{
+    color:rgb(7, 158, 158);
+    font-size: 18px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+}
+.award .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.award .box .year{
+    min-width: 120px;
+}
+.award .box .year h5{
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(2, 58, 58);
+    line-height: 35px;
+
+}
+.award p{
+    font-size: 16px;
+    margin-top: 3px;
+    text-align: justify;
+    font-weight: 300;
+    margin-left: 40px;
+    line-height: 20px;
+}
+.personal{
+    position: relative;
+    align-items: left;
+}
+.personal h2{
+    color:rgb(7, 158, 158);
+    font-size: 18px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight: 600;
+    line-height: 25px;
+}
+.personal ul li{
+    position: relative;
+    margin: 10px 0;
+    cursor:default;
+    list-style-type: disc;
+    color: rgb(2, 58, 58);
+}
+.personal ul li .text{
+    color: black;
+}
+
+
