@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "Barlow", sans-serif, serif;
+    line-height: 1.7;
+    color: rgb(169, 169, 169);
+
+}
+
+.container-fluid .row p{
+    color: #917236;
+    font-family: 'Optima',Helvetica,Arial,sans-serif;
+    margin-top: 6px;
+}
+
+.container-fluid .row .track {
+    color: #917236;
+    margin-top: 6px;
+    font-weight: 100;
+    font-family: 'Roboto',Helvetica,Arial,sans-serif;
+}
+
+.top-navbar {
+    border-bottom: 1px solid #f1e6d0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700 !important;
+    color: rgb(11, 11, 11);
+}
+
+a {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 500;
+}
+
+.top-nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid #f1e6d0;
+}
+
+.social-link a{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(231, 216, 216, 0.3);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(92, 68, 8);
+    font-size: 20px;
+    border-radius: 100%;
+
+}
+
+.social-link a:hover{
+    background-color: rgb(92, 68, 8);
+    color: rgb(229, 221, 221);
+}
+
+.navbar {
+    box-shadow: 0px 6px 30px rgb(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: rgb(200, 153, 35);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(50, 20, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(57, 10, 10);
+}
+
+.navbar-brand span{
+    color: rgb(182, 93, 61);
+}
+
+.btn{
+    padding: 9px 24px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: rgb(200, 153, 35);
+    border-color: rgb(200, 153, 35);
+    color: white;
+}
+
+
+
+
+
+
+
