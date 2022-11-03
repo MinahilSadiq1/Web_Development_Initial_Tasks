@@ -42,10 +42,6 @@ a {
     margin-left: 10px;
 }
 
-input[type=text] {
-    border: none;
-    border-bottom: 1px solid #f1e6d0;
-}
 
 .social-link a{
     width: 30px;

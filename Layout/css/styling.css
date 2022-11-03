@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: "proxima-nova",Sans-serif;
+    line-height: 1.7;
+    color: rgb(169, 169, 169);
+
+}
+
+.top-nav{
+    margin-top: 10px;
+    height: 80px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #62605d;
+
+}
+
+.top-nav .first, .second, .third {
+    text-decoration: none;
+    color: #9b968f;
+    margin-left: 47px;
+    padding-top: 20px;
+}
+
+
+.social-links {
+    margin-left: 240px;
+
+}
+
+.social-links a{
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    border-radius: 100%;
+
+}
+
+.social-links a:hover{
+    background-color: #f4b233;
+    color: white;
+}
+
+.navbar {
+    height: 40px;
+    background-color: #f4b233;
+}
+
+.navbar ul li {
+    min-width: 280px;
+}
+
+.slide1 {
+    background-image: url(../img/class.jpg);
+}
+
+.bg-cover {
+    background-position: center !important;
+    background-size: cover !important;
+
+}
+
+h2, h5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: black;
+    text-align: justify;
+}
+
+
+
+.btn{
+    padding: 5px 34px;
+    font-weight: 500;
+}
+
+.btn-brand {
+    background-color: #f4b233;
+    border-color: #f4b233;
+    color: white;
+}
+
+.btn-brand:hover {
+    color: white;
+    background-color: #f4b233;
+}
+
+
