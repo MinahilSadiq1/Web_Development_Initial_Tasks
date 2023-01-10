@@ -1,0 +1,84 @@
+<marquee class="marque" direction="left">
+  Due to the new year sale, delivery of your order can take 10 to 15 days.
+</marquee>
+<nav class="navbar navbar-expand-lg navbar-light making" id="nav-style">
+  <div class="container-fluid" id="full-div">
+      <img class="round" src="https://jimdo-storage.freetls.fastly.net/image/305136153/ac486a83-7169-41e2-bc94-09a132691cb4.png?quality=80,90&auto=webp&disable=upscale&width=320&height=278&trim=0,0,0,0" alt="kidify">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active links" aria-current="page" href="/">Home</a>
+          </li>
+      
+          <li class="nav-item">
+            <a href="/cart" class="nav-link links">Shopping Cart</a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/my-account" class="nav-link links">My Account</a>
+          </li>
+          <% if(isAdmin) {%>
+          <li class="nav-item">
+            <a href="/admin" class="nav-link links">Admin Panel</a>
+          </li>
+          <% } %> <% if(!user) {%>
+          <li class="nav-item">
+            <a href="/register" class="nav-link links">Register</a>
+          </li>
+          <li class="nav-item">
+            <a href="/login" class="nav-link links">Login</a>
+          </li>
+          <% }else { %>
+          <li class="nav-item">
+            <a href="/logout" class="nav-link links">Logout</a>
+          </li>
+
+          <% } %>
+        </ul>
+      </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-light changes" id="nav-style">
+  <div class="container-fluid" id="full-div">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse part" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+          <a href="/prod" class="nav-link linking">Products</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="/sale" class="nav-link linking">Sale</a>
+        </li>
+        
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle linking" href="/" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                More
+              </a>
+              <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item linking" href="/news">News</a>
+                </li>
+                <li><a class="dropdown-item linking" href="/size">Size chart</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        
+      </ul>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "myPrivateKey",
+  "db": "mongodb+srv://minahil123:minahil123@cluster0.faj9if3.mongodb.net/?retryWrites=true&w=majority",
+  "port": "4000",
+  "sessionSecret": "MySessionSecret"
+}

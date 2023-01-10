@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+  <% for(var i=0;i<products.length;i++) {%>
+      
+      <div class="card col-4 m-4" style="width: 18rem;">
+          <img src="/images/uploaded/<%=products[i].image %>" class="card-img-top" alt="image product" style="float: left; padding: 10px"
+          width="200px">
+          <div class="card-body">
+            <h5 class="card-title title"><%=products[i].name %></h5>
+            </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item txtt">Price: <%=products[i].price %></li>
+            <li class="list-group-item txtt">Color: <%=products[i].color %></li>
+            <li class="list-group-item txtt">Description:<%=products[i].description %> </li>
+          </ul>
+          <div class="card-body">
+            <a href="/add-cart/<%=products[i]._id %>" class="card-link btn resize">Add to cart</a>
+          </div>
+        </div>
+        <% } %>
+      </products.length;i++)>
+  </div>
+  </div>
+  
