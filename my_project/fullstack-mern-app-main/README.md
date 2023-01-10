@@ -66,6 +66,3 @@ locally react app will not be served from express. In order to do that you need 
 
 > npm run build
 
-## info
-
-Live version is hosted at https://fullstack-usman.herokuapp.com/
